@@ -488,6 +488,20 @@ This allows me to do things like ```fig run web env``` which will give me a list
 
 I can also use ```fig run web bash``` to run my web container interactively the way it has been setup by fig with the link to app so I can debug any issues from the command line.
 
+### Monitoring
+
+
+#### Comparative on docker monitpring tools
+
+This is a nice comparative on different monitoring tools: [Rancher comparative](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
+#### Docker stats
+
+This is the native stats provided by docker. It's easy to use but no aggreagation of data.
+```
+$docker stats [containers]
+```
+#### Sensu Monitoring Framework
+
 ### Panamax
 
 * [Panamax](http://panamax.io/)
